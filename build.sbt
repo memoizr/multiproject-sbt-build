@@ -11,4 +11,5 @@ libraryDependencies ++= Seq(
   mockito
 )
 
-lazy val auth = project in file("auth")
+lazy val authCore = project in file("auth/core")
+lazy val authApi = project in file("auth/api")

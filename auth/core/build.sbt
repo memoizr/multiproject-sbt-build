@@ -4,3 +4,4 @@ libraryDependencies ++= Seq(
   scalatest,
   mockito
 )
+
